@@ -1,0 +1,78 @@
+html{
+	background-image:url(../images/duotone.png);
+	background-size: cover;
+}
+label{
+	font-weight:bold;
+}
+
+:required {
+		border: 2px solid white;
+	}
+
+#formulaire{
+	background-color:rgba(0, 166, 255, 0.058);
+	border:2px solid grey;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow: 8px 8px 12px #aaa; 
+	-webkit-box-shadow: 8px 8px 12px #aaa; 
+	box-shadow: 8px 8px 12px #555;
+	margin:auto;
+	margin-top:30px;
+	width:50%;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#bouton{
+	text-align:center;
+}
+
+#messages{
+	background-color:rgba(0, 166, 255, 0.058);
+	border:2px solid grey;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow: 8px 8px 12px #aaa; 
+	-webkit-box-shadow: 8px 8px 12px #aaa; 
+	box-shadow: 8px 8px 12px #555;
+	margin:auto;
+	margin-top:30px;
+	width:50%;
+	text-indent:20px;
+}
+
+#champs{
+	margin:auto;
+}
+
+#bouton{
+	text-align:center;
+}
+
+.date{
+	font-weight:bold;
+	color:#00267e;
+}
+
+.heure{
+	font-weight:bold;
+	color:#00650e;
+}
+
+.info{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color:white;
+	text-align:center;
+	line-height:2em;
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+.lignes{
+	line-height:2em;
+}
+
